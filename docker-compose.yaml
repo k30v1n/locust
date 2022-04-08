@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  master:
+    container_name: "locust_master"
+    build: .
+    ports:
+     - "8089:8089"
